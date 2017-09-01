@@ -1,0 +1,158 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    
+    background-color: #ffffff;
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+    color: #50b7e9;
+}
+
+.button {
+    font: inherit;
+    
+    color: #ffffff;
+    background-color: #3995e0;
+    font-weight: 600;
+    
+    min-width: 164px;
+    min-height: 30px;
+    
+    border-radius: 2px;
+    
+    margin-top: 10px; 
+}
+
+.container {
+    width: 651px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 1, 1, 0.2);
+    
+            box-shadow: 0px 0px 15px 5px rgba(0, 1, 1, 0.2);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    
+}
+header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    
+    padding-top: 35px;
+    padding-left: 45px;
+    padding-right: 70px;
+}
+
+.promo {
+    border-bottom: 2px solid #3995e0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.promo p {
+    margin-top: 0;
+}
+
+h1 {
+    color: #ed1847;
+    
+    text-align: center;
+    font-weight: 300;
+}
+
+.wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+article {
+    text-align: center;
+    margin-left: 72px;
+    margin-top: 15px;
+}
+
+article p {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    margin-left: 25px;
+    padding-right: 70px;
+    
+}
+
+section a {
+    text-decoration: underline;
+}
+
+section .author {
+    margin: 0;
+    padding-bottom: 10px;
+    
+    position: relative;
+}
+
+section .author::after {
+    content: "";
+    position: absolute;
+    
+    width: 350px;
+    
+    border-bottom: 2px dotted #cccccc;
+    
+    left: -25px;
+    bottom: 0;
+}
+
+h2 {
+    color: #0095da;
+    margin-bottom: 3px;
+    margin-top: 20px;
+    
+    font-weight: 300;
+}
+
+.author {
+    font-style: italic;
+}
+
+.book-title {
+    color: #3995e0;
+    font-weight: 600;      
+}
+
+footer {
+    padding-left: 45px;
+    padding-right: 70px;
+    margin-top: 55px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    border-top: 2px solid #3995e0;
+    padding-top: 5px;
+}
