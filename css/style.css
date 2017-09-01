@@ -3,8 +3,8 @@ body {
     padding: 0;
     
     font-family: "PT Sans", "Arial", sans-serif;
-    font-size: 12px;
-    line-height: 17px;
+    font-size: 14px;
+    line-height: 16px;
     
     background-color: #ffffff;
     color: #333333;
@@ -150,6 +150,8 @@ footer {
     padding-right: 70px;
     margin-top: 55px;
     padding-bottom: 20px;
+    
+    font-size: 12px;
 }
 
 footer p {
